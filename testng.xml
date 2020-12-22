@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-
-<suite name="Wheather test" verbose="1" >
-    <test name="Wheather Get Request" >
-        <classes>
-            <class name="WheatherGetRequest" />
-        </classes>
-    </test>
-</suite>
