@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite1_and_TestNG_report" class="navigator-link">
-              <span class="suite-name border-failed">Suite1 and TestNG report</span>
+              <span class="suite-name border-passed">Suite1 and TestNG report</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite1_and_TestNG_report" class="hide-methods failed suite-Suite1_and_TestNG_report"> (hide)</a> <!-- hide-methods failed suite-Suite1_and_TestNG_report -->
-                      <a href="#" panel-name="suite-Suite1_and_TestNG_report" class="show-methods failed suite-Suite1_and_TestNG_report"> (show)</a> <!-- show-methods failed suite-Suite1_and_TestNG_report -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite1_and_TestNG_report">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1_and_TestNG_report" title="testPages.testLogin" class="method navigator-link" hash-for-method="getLandingTitle">getLandingTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite1_and_TestNG_report -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,17 +104,7 @@
                     <div class="method-list-content passed suite-Suite1_and_TestNG_report">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1_and_TestNG_report" title="testPages.testLogin" class="method navigator-link" hash-for-method="getDateTime">getDateTime</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1_and_TestNG_report" title="testPages.testLogin" class="method navigator-link" hash-for-method="getHomeTitle">getHomeTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1_and_TestNG_report" title="testPages.testLogin" class="method navigator-link" hash-for-method="loginProperty">loginProperty</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1_and_TestNG_report" title="testOOPs.testOOPs" class="method navigator-link" hash-for-method="bubbleSort">bubbleSort</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1_and_TestNG_report -->
@@ -143,83 +119,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite1_and_TestNG_report" class="panel Suite1_and_TestNG_report">
-          <div class="suite-Suite1_and_TestNG_report-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testPages.testLogin</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getLandingTitle">
-                  </a> <!-- getLandingTitle -->
-                  <span class="method-name">getLandingTitle</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3[contains(text(),&apos;Livin PMH Resident Portal&apos;)]&quot;}
-  (Session info: headless chrome=87.0.4280.88)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;sangs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1434:c49:c4b:af39%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/xz/4v9y5fc1563...}, goog:chromeOptions: {debuggerAddress: localhost:56946}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: db3f0150de1713b9685ad6684ee54eae
-*** Element info: {Using=xpath, value=//h3[contains(text(),&apos;Livin PMH Resident Portal&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy18.getText(Unknown Source)
-	at pages.loginPage.getTitle(loginPage.java:41)
-	at testPages.testLogin.getLandingTitle(testLogin.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Get landing page title!)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite1_and_TestNG_report-class-failed -->
           <div class="suite-Suite1_and_TestNG_report-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testPages.testLogin</span>
+              <span class="class-name">testOOPs.testOOPs</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getDateTime">
-                  </a> <!-- getDateTime -->
-                  <span class="method-name">getDateTime</span>
-                  <em>
-(Get DateTime)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="getHomeTitle">
-                  </a> <!-- getHomeTitle -->
-                  <span class="method-name">getHomeTitle</span>
-                  <em>
-(Get Home page portal title after login successfully!)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginProperty">
-                  </a> <!-- loginProperty -->
-                  <span class="method-name">loginProperty</span>
-                  <em>
-(Login as Admin to Property Portal!)                  </em>
+                  <a name="bubbleSort">
+                  </a> <!-- bubbleSort -->
+                  <span class="method-name">bubbleSort</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,8 +149,14 @@ Session ID: db3f0150de1713b9685ad6684ee54eae
     &lt;listener class-name=&quot;utilities.iTestListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;TestNG and Listener Report&quot;&gt;
+    &lt;groups&gt;
+      &lt;dependencies&gt;
+        &lt;group depends-on=&quot;&quot; name=&quot;testPages.testLogin&quot;/&gt;
+        &lt;group depends-on=&quot;testPages.testLogin&quot; name=&quot;testPages.testDashboard&quot;/&gt;
+      &lt;/dependencies&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testPages.testLogin&quot;/&gt;
+      &lt;class name=&quot;testOOPs.testOOPs&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestNG and Listener Report --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 and TestNG report --&gt;
@@ -280,28 +196,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getLandingTitle')
-data.setCell(0, 2, 'testPages.testLogin')
-data.setCell(0, 3, 1159);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getHomeTitle')
-data.setCell(1, 2, 'testPages.testLogin')
-data.setCell(1, 3, 800);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginProperty')
-data.setCell(2, 2, 'testPages.testLogin')
-data.setCell(2, 3, 322);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'getDateTime')
-data.setCell(3, 2, 'testPages.testLogin')
-data.setCell(3, 3, 5);
+data.setCell(0, 1, 'bubbleSort')
+data.setCell(0, 2, 'testOOPs.testOOPs')
+data.setCell(0, 3, 6);
 window.suiteTableData['Suite1_and_TestNG_report']= { tableData: data, tableDiv: 'times-div-Suite1_and_TestNG_report'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 6 ms</span>
               <div id="times-div-Suite1_and_TestNG_report">
               </div> <!-- times-div-Suite1_and_TestNG_report -->
             </div> <!-- times-div -->
@@ -316,9 +220,28 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1_and_TestNG_report" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">7 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testOOPs.testOOPs</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">binarySearch</span>
+                <br/>
+                <span class="ignored-method-name">testQuickSort</span>
+                <br/>
+                <span class="ignored-method-name">testLinearSearch</span>
+                <br/>
+                <span class="ignored-method-name">testMergeSort</span>
+                <br/>
+                <span class="ignored-method-name">testLargestArr</span>
+                <br/>
+                <span class="ignored-method-name">concatString</span>
+                <br/>
+                <span class="ignored-method-name">testString</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite1_and_TestNG_report" class="panel">
@@ -327,28 +250,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testPages.testLogin</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">intBrowser</span>
+              <div class="chronological-class-name">testOOPs.testOOPs</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">bubbleSort</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">getLandingTitle</span>
-                <span class="method-start">22387 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">loginProperty</span>
-                <span class="method-start">23605 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">getDateTime</span>
-                <span class="method-start">23929 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">getHomeTitle</span>
-                <span class="method-start">23935 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

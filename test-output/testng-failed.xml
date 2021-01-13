@@ -7,12 +7,11 @@
   </listeners>
   <test thread-count="5" name="TestNG and Listener Report(failed)">
     <classes>
-      <class name="testPages.testLogin">
+      <class name="testOOPs.testOOPs">
         <methods>
-          <include name="getLandingTitle"/>
-          <include name="intBrowser"/>
+          <include name="testLargestArr"/>
         </methods>
-      </class> <!-- testPages.testLogin -->
+      </class> <!-- testOOPs.testOOPs -->
     </classes>
   </test> <!-- TestNG and Listener Report(failed) -->
 </suite> <!-- Failed suite [Suite1 and TestNG report] -->

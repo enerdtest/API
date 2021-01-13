@@ -1,5 +1,4 @@
 import com.jayway.restassured.RestAssured;
-import com.jayway.restassured.builder.RequestSpecBuilder;
 import com.jayway.restassured.config.LogConfig;
 import com.jayway.restassured.http.ContentType;
 import com.jayway.restassured.path.json.JsonPath;
@@ -9,12 +8,6 @@ import net.minidev.json.JSONObject;
 import org.junit.After;
 import org.junit.Before;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-
-
-import java.io.PrintStream;
-import java.io.StringWriter;
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.time.Instant;
 import java.util.Date;
