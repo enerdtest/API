@@ -1,6 +1,6 @@
 package utility;
 
-public class printArray {
+public class PrintArray {
     public void testSprintArray(int arr[]){
         int len = arr.length;
         for (int i = 0; i < len; i++)

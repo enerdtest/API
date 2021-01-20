@@ -1,6 +1,6 @@
-package OOPs;
+package OOPs.Algo;
 
-public class quickSort {
+public class QuickSort {
     private int partition(int arr[], int low, int high){
         int pivot = arr[high];
         int i = (low-1);

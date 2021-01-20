@@ -7,11 +7,11 @@
   </listeners>
   <test thread-count="5" name="TestNG and Listener Report(failed)">
     <classes>
-      <class name="testOOPs.testOOPs">
+      <class name="testOOPs.HackerRank">
         <methods>
-          <include name="testLargestArr"/>
+          <include name="dataTypes"/>
         </methods>
-      </class> <!-- testOOPs.testOOPs -->
+      </class> <!-- testOOPs.HackerRank -->
     </classes>
   </test> <!-- TestNG and Listener Report(failed) -->
 </suite> <!-- Failed suite [Suite1 and TestNG report] -->

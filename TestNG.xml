@@ -17,7 +17,9 @@
 <!--            <class name="OOPs.constructor"></class>-->
 <!--            <class name="testPages.testLogin"></class>-->
 <!--            <class name="testPages.testDashboard"></class>-->
-            <class name="testOOPs.testOOPs"></class>
+<!--            <class name="testOOPs.testOOPs"></class>-->
+<!--            <class name="testOOPs.testInnerClass"></class>-->
+            <class name="testOOPs.HackerRank"></class>
         </classes>
     </test>
 </suite>

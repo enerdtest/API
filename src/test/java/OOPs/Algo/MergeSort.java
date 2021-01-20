@@ -1,6 +1,6 @@
-package OOPs;
+package OOPs.Algo;
 
-public class mergeSort {
+public class MergeSort {
     private void mergeSortImpl(int arr[], int left, int mid, int right){
         //file size of left and right
 

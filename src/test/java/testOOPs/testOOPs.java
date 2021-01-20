@@ -1,8 +1,11 @@
 package testOOPs;
 
 import OOPs.*;
+import OOPs.Algo.*;
 import org.testng.annotations.Test;
-import utility.printArray;
+import utility.PrintArray;
+
+import java.util.Scanner;
 
 public class testOOPs {
     @Test(enabled = false)
@@ -13,8 +16,8 @@ public class testOOPs {
     @Test(enabled = false)
     public void testMergeSort(){
         int arr[] = {12, -1, -20,0, 23, 31, 32,98,0, 16};
-        mergeSort mergeSort = new mergeSort();
-        printArray printArray = new printArray();
+        MergeSort mergeSort = new MergeSort();
+        PrintArray printArray = new PrintArray();
 
         System.out.println("The array before sorting! ");
         printArray.testSprintArray(arr);
@@ -29,8 +32,8 @@ public class testOOPs {
     public void testQuickSort(){
         int arr[] = {12, -1, -20,0, 23, 31, 32,98,0, 16};
         int arrLen = arr.length;
-        quickSort quickSort = new quickSort();
-        printArray printArray = new printArray();
+        QuickSort quickSort = new QuickSort();
+        PrintArray printArray = new PrintArray();
 
         System.out.println("The array before doing sorting: ");
         printArray.testSprintArray(arr);
@@ -58,8 +61,8 @@ public class testOOPs {
     public void testLinearSearch(){
         int arr[] = {12 ,34, 01, 3, 5, 32, 24, 56,-1, -8, 12};
         int key = -8;
-        linear linear  = new linear();
-        linear.linearSearch(arr, key);
+        LinearSearch LinearSearch = new LinearSearch();
+        LinearSearch.linearSearch(arr, key);
     }
 
     @Test(enabled = false)
@@ -67,28 +70,111 @@ public class testOOPs {
         int arr[] = {12 ,34, 01, 3, 5, 32, 24, 56,-1, -8, 12};
         int len = arr.length;
         int key = 12;
-        binary binary = new binary();
-        int result = binary.binarySearch(arr, 0, len - 1, key);
+        BinarySearch BinarySearch = new BinarySearch();
+        int result = BinarySearch.binarySearch(arr, 0, len - 1, key);
         if (result == -1)
             System.out.println("your searching keyword not found! " + key);
         else
             System.out.println("your searching keyword found " + key);
     }
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void bubbleSort(){
         int arr[] = {0 ,0, 01, 1,0, 1, 0, 0,1, 1, 10};
-        bubbleSort bubbleSort = new bubbleSort();
+        BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.bubbleSortArr(arr);
-        printArray print = new printArray();
+        PrintArray print = new PrintArray();
         print.testSprintArray(arr);
     }
 
     @Test(enabled = false)
     public void testLargestArr(){
         int arr[] = {12 ,34, 01, 3, 5, 32, 24, 56,-1, -8, 12, 10000};
-        findLargest largest = new findLargest();
+        FindLargest largest = new FindLargest();
         largest.largestArr(arr);
     }
+
+    @Test(enabled = false)
+    public void testScanner(){
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        System.out.println("Your input is " + a);
+    }
+
+    @Test(enabled = false)
+    public void testOddEven(){
+        int num = 2;
+        harkerRank harkerRank =  new harkerRank();
+        harkerRank.oddEven(num);
+        int result;
+     for (int i =1; i <= 10; i++){
+         result = num * i;
+         System.out.println(num + " x " + i + " = " + result);
+     }
+
+     int t=1;
+
+     for(int i = 0; i<t; i++){
+         int a = 5, b =3, n =5;
+         int result1 = a;
+         for (int j = 0; j<n; j++){
+            result1 += (int) (Math.pow(2, j)*b);
+             System.out.printf("%s ", result1);
+         }
+         System.out.println();
+     }
+    }
+
+    @Test(enabled = false)
+    public void appendString(){
+
+        String str = "aaa123bbbe34238273*#&$*";
+        StringBuffer alpha = new StringBuffer(),
+                number = new StringBuffer(),
+                special = new StringBuffer();
+        for (int i = 0; i<str.length(); i++){
+            if (Character.isAlphabetic(str.charAt(i)))
+                alpha.append(str.charAt(i));
+            else if (Character.isDigit(str.charAt(i)))
+                number.append(str.charAt(i));
+            else
+                special.append(str.charAt(i));
+        }
+        System.out.println("Alphabet after splitting " + alpha);
+        System.out.println("Number after splitting " + number);
+        System.out.println("Special char after splitting " + special);
+    }
+
+    @Test(enabled = false)
+    public void mergeArrays(){
+        int arr1[] = {12, 11, 02, 07};
+        int arr2[] = {12, 11, 02, 07};
+        workingWithString withString = new workingWithString();
+        withString.mergeArrays(arr1, arr2);
+    }
+
+    @Test(enabled = false)
+    public void testAbstract(){
+        int arr1[] = {12, 11, 02, 07};
+        int arr2[] = {12, 11, 02, 07};
+        inheAbstract inhe = new inheAbstract();
+
+//        inhe.mergeArrays(arr1, arr2);
+        inhe.printAbstract();
+        inhe.absMethod();
+        inhe.draw();
+    }
+
+    @Test
+    public void findPeekElement(){
+        PeekElement peek = new PeekElement();
+        int arr[] = {10, 20, 15, 2, 23, 67, 90};
+        int len = arr.length;
+        System.out.println("Peek element is: " + peek.peekElement(arr, len));
+
+        System.out.println("Peek element with Binary is: " + peek.findPeek(arr, len));
+    }
+
+
 
 }

@@ -1,6 +1,6 @@
-package OOPs;
+package OOPs.Algo;
 
-public class findLargest {
+public class FindLargest {
     public int largestArr(int arr[]){
         int max = arr[0];
         for (int i = 1; i < arr.length; i++)

@@ -1,6 +1,6 @@
-package OOPs;
+package OOPs.Algo;
 
-public class bubbleSort {
+public class BubbleSort {
 
     public void bubbleSortArr(int arr[]){
         int arrLen = arr.length;

@@ -1,5 +1,6 @@
 package OOPs;
 
+import OOPs.Algo.EvenOrOdd;
 import org.testng.annotations.Test;
 
 import java.util.Scanner;
@@ -8,7 +9,7 @@ import static OOPs.nonStatic.show;
 
 public class testVehicle {
     private carClass carClass;
-    private evenOrOdd evenOrOdd;
+    private EvenOrOdd evenOrOdd;
     private vehicle vehicle;
     @Test
     public void oop(){
@@ -33,7 +34,7 @@ public class testVehicle {
     }
    // @Test
     public void evenOrOdd(){
-        evenOrOdd = new evenOrOdd();
+        evenOrOdd = new EvenOrOdd();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input number: " );
         int num = scanner.nextInt();
