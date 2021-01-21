@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="13" total="14" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-20T10:03:49 ICT" name="Suite1 and TestNG report" finished-at="2021-01-20T10:03:49 ICT" duration-ms="37">
+  <suite started-at="2021-01-21T09:37:42 ICT" name="Suite1 and TestNG report" finished-at="2021-01-21T09:37:42 ICT" duration-ms="35">
     <groups>
     </groups>
-    <test started-at="2021-01-20T10:03:49 ICT" name="TestNG and Listener Report" finished-at="2021-01-20T10:03:49 ICT" duration-ms="37">
-      <class name="testOOPs.HackerRank">
-        <test-method signature="findGivenSum()[pri:0, instance:testOOPs.HackerRank@6591f517]" started-at="2021-01-20T10:03:49 ICT" name="findGivenSum" finished-at="2021-01-20T10:03:49 ICT" duration-ms="7" status="PASS">
+    <test started-at="2021-01-21T09:37:42 ICT" name="TestNG and Listener Report" finished-at="2021-01-21T09:37:42 ICT" duration-ms="35">
+      <class name="testOOPs.testOOPs">
+        <test-method signature="mergeArrays()[pri:0, instance:testOOPs.testOOPs@3f200884]" started-at="2021-01-21T09:37:42 ICT" name="mergeArrays" finished-at="2021-01-21T09:37:42 ICT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findGivenSum -->
-        <test-method signature="minMax()[pri:0, instance:testOOPs.HackerRank@6591f517]" started-at="2021-01-20T10:03:49 ICT" name="minMax" finished-at="2021-01-20T10:03:49 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- minMax -->
-      </class> <!-- testOOPs.HackerRank -->
+        </test-method> <!-- mergeArrays -->
+      </class> <!-- testOOPs.testOOPs -->
     </test> <!-- TestNG and Listener Report -->
   </suite> <!-- Suite1 and TestNG report -->
 </testng-results>

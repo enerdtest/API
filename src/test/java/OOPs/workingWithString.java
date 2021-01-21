@@ -1,5 +1,7 @@
 package OOPs;
 
+import OOPs.Algo.BubbleSort;
+import OOPs.Algo.QuickSort;
 import OOPs.Interface.Merge2Arrays;
 
 public class workingWithString implements Merge2Arrays {
@@ -21,20 +23,21 @@ public class workingWithString implements Merge2Arrays {
     }
 
     @Override
-    public void mergeArrays(int arraya[], int arrayb[]) {
-        int a1 = arraya.length;
-        int b1 = arrayb.length;
+    public void mergeArrays(int array1[], int array2[]) {
+        int a1 = array1.length;
+        int b1 = array2.length;
         int cLen = a1 + b1;
         int c[] = new int[cLen];
 
         for (int i =0; i<a1; i++){
-            c[i] = arraya[i];
+            c[i] = array1[i];
         }
         for (int i = 0; i < b1; i++){
-            c[a1 +i] = arrayb[i];
+            c[a1 +i] = array2[i];
         }
-
-        for (int i = 0; i < cLen; i = i +1){
+        BubbleSort bubbleSort = new BubbleSort();
+        bubbleSort.bubbleSortArr(c);
+        for (int i = 0; i < cLen; i++){
             System.out.println(c[i]);
         }
     }

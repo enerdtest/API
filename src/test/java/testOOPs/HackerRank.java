@@ -62,4 +62,3 @@ public class HackerRank {
         print.testSprintArray(arr);
     }
 }
-ßß
