@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1 and TestNG report" verbose="1" >
+    <listeners>
+        <listener class-name="utilities.testIReport"></listener>
+        <listener class-name="utilities.iTestListener"></listener>
+    </listeners>
+    <test name="TestNG and Listener Report" >
+<!--        <groups>-->
+<!--            <dependencies>-->
+<!--                <group name="testPages.testLogin" depends-on=""></group>-->
+<!--                <group name="testPages.testDashboard" depends-on="testPages.testLogin"></group>-->
+<!--            </dependencies>-->
+<!--        </groups>-->
+        <classes>
+<!--            <class name="OOPs.testVehicle" />-->
+<!--            <class name="OOPs.constructor"></class>-->
+<!--            <class name="testPages.testLogin"></class>-->
+<!--                <class name="postRequest"></class>-->
+            <!--            <class name="testPages.testDashboard"></class>-->
+            <class name="testOOPs.testOOPs"></class>
+<!--            <class name="testOOPs.testInnerClass"></class>-->
+<!--            <class name="testOOPs.HackerRank"></class>-->
+<!--            <class name="testOOPs.hashSet"></class>-->
+        </classes>
+    </test>
+</suite>
