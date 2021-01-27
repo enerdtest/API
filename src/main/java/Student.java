@@ -1,7 +1,7 @@
-public class student {
-    int studentID;
-    String studentName;
-    String studentClassName;
+public class Student {
+    private int studentID;
+    private String studentName;
+    private String studentClassName;
     public void insertStudent(int studentID, String studentName, String studentClassName){
         this.studentID = studentID;
         this.studentName = studentName;

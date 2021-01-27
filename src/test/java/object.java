@@ -6,14 +6,14 @@ import java.util.Scanner;
 public class object {
     //@Test(priority = 0)
     public void student(){
-        student student1 = new student();
+        Student student1 = new Student();
         student1.insertStudent(123, "Sang Kieu", "C13QV35");
         student1.displayStudent();
     }
 
    // @Test(priority = 0)
     public void eventOrOdd(){
-        oddMethod oddMethod = new oddMethod();
+        OddMethod oddMethod = new OddMethod();
         int num;
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter username");
@@ -27,7 +27,7 @@ public class object {
 
     @Test
     public void returnThisMethod(){
-        new returnThis().getA().msg();
+        new ReturnThis().getA().msg();
         A4 a4 = new A4();
     }
 

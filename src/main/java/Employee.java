@@ -1,8 +1,8 @@
-public class employee {
-    int id;
-    String name;
-    address address;
-    public employee(int id, String name, address address){
+public class Employee {
+    private int id;
+    private String name;
+    private Address address;
+    public Employee(int id, String name, Address address){
         this.id = id;
         this.name = name;
         this.address = address;

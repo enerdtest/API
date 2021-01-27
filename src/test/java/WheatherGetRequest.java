@@ -16,7 +16,7 @@ import static com.jayway.restassured.RestAssured.*;
 import static java.lang.System.*;
 
 public class WheatherGetRequest {
-    md5Hash md5Hash = new md5Hash();
+    Md5Hash md5Hash = new Md5Hash();
 
     @Before
     public void setup() {

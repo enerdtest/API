@@ -1,5 +1,4 @@
-public class oddMethod {
-
+public class OddMethod {
 
     public void findEventOdd(int number){
         if (number %2 == 0){
