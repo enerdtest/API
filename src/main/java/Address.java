@@ -1,6 +1,6 @@
-public class address {
+public class Address {
     String city, state, country;
-    public address(String city, String state, String country){
+    public Address(String city, String state, String country){
         this.city = city;
         this.state = state;
         this.country = country;
