@@ -6,7 +6,7 @@ public class carClass extends vehicle {
         this.numOfDoors = doors;
     }
 
-    void vehicleInfo(){
+    void getVehicleInfo(){
         System.out.println("Car Model Name: " + modelName);
         System.out.println("Brand Name: " + brandName);
         System.out.println("Price in $: " + price);

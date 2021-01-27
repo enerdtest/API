@@ -57,7 +57,7 @@ public class testOOPs {
 
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testLinearSearch(){
         int arr[] = {12 ,34, 01, 3, 5, 32, 24, 56,-1, -8, 12};
         int key = -8;
@@ -78,9 +78,9 @@ public class testOOPs {
             System.out.println("your searching keyword found " + key);
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void bubbleSort(){
-        int arr[] = {0 ,0, 01, 1,0, 1, 0, 0,1, 1, 10};
+        int arr[] = {7 ,0, 01, 8, 3, 1, 0, 20, 17, 1000, 10};
         BubbleSort bubbleSort = new BubbleSort();
         bubbleSort.bubbleSortArr(arr);
         PrintArray print = new PrintArray();

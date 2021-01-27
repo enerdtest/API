@@ -11,6 +11,8 @@ import com.jayway.restassured.specification.RequestSpecification;
 import net.minidev.json.JSONObject;
 import org.junit.After;
 import org.junit.Before;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Instant;
@@ -21,18 +23,18 @@ import static java.lang.System.out;
 public class postRequest {
 
 
-    @Before
+    @BeforeTest
     public void setup() {
         RestAssured.config = config().logConfig(LogConfig.logConfig().enablePrettyPrinting(false));
         baseURI = ("http://openapi-test.savour.fun");
     }
 
-    @After
+    @AfterTest
     public void teardown() {
         RestAssured.reset();
     }
 
-//    @Test
+    @Test
     public void login_livin(){
         baseURI = ("https://oauth2-czytest.savour.fun");
 
