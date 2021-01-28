@@ -1,5 +1,3 @@
-import com.github.dzieciou.testing.curl.CurlLogger;
-import com.github.dzieciou.testing.curl.CurlRestAssuredConfigFactory;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.config.LogConfig;
 import com.jayway.restassured.http.ContentType;
@@ -9,7 +7,6 @@ import com.jayway.restassured.specification.RequestSpecification;
 import net.minidev.json.JSONObject;
 import org.junit.After;
 import org.junit.Before;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import javax.activation.DataHandler;
@@ -17,7 +14,6 @@ import javax.activation.FileDataSource;
 import javax.mail.*;
 import javax.mail.internet.*;
 import javax.sql.DataSource;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.Instant;
@@ -25,9 +21,8 @@ import java.util.Properties;
 
 import static com.jayway.restassured.RestAssured.*;
 import static java.lang.System.out;
-import static java.lang.System.setOut;
 
-public class iceToken {
+public class IceToken {
     @Before
     public void setup() {
         RestAssured.config = config().logConfig(LogConfig.logConfig().enablePrettyPrinting(false));
@@ -48,7 +43,7 @@ public class iceToken {
         String corp_uuid = "gsc53f9713sf4e3791725a9tf786c8c9";
         long time = Instant.now().getEpochSecond();
         String timestamp = Long.toString(time);
-        String signature = md5Hash.getMd5(app_uuid + time + token);
+        String signature = Md5Hash.getMd5(app_uuid + time + token);
 
         JSONObject object = new JSONObject();
         object.put("app_uuid", app_uuid);
@@ -73,7 +68,7 @@ public class iceToken {
         String corp_uuid = "gsc53f9713sf4e3791725a9tf786c8c9";
         long time = Instant.now().getEpochSecond();
         String timestamp = Long.toString(time);
-        String signature = md5Hash.getMd5(app_uuid + time + token);
+        String signature = Md5Hash.getMd5(app_uuid + time + token);
 
         JSONObject object = new JSONObject();
         object.put("app_uuid", app_uuid);

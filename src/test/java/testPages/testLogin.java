@@ -1,9 +1,8 @@
 package testPages;
 
-import basePage.basePage;
+import basePage.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pages.homePage;
 import pages.loginPage;
@@ -13,7 +12,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class testLogin extends basePage{
+public class testLogin extends BasePage {
     WebDriver driver;
     private loginPage loginPage;
     private homePage homePage;

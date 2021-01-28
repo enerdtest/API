@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class object {
     //@Test(priority = 0)
     public void student(){
-        student student1 = new student();
+        Student student1 = new Student();
         student1.insertStudent(123, "Sang Kieu", "C13QV35");
         student1.displayStudent();
     }
@@ -27,7 +27,7 @@ public class object {
 
     @Test
     public void returnThisMethod(){
-        new returnThis().getA().msg();
+        new ReturnThis().getA().msg();
         A4 a4 = new A4();
     }
 

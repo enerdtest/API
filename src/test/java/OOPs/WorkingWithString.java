@@ -4,7 +4,7 @@ import OOPs.Algo.BubbleSort;
 import OOPs.Algo.QuickSort;
 import OOPs.Interface.Merge2Arrays;
 
-public class workingWithString implements Merge2Arrays {
+public class WorkingWithString implements Merge2Arrays {
     public void stringWithRegex(String str){
         StringBuffer alpha = new StringBuffer(),
                 number = new StringBuffer(),

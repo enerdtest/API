@@ -4,11 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.dashboardPage;
-import basePage.basePage;
+import basePage.BasePage;
 
 import java.util.concurrent.TimeUnit;
 
-public class testDashboard extends basePage{
+public class testDashboard extends BasePage {
     WebDriver driver;
     private dashboardPage dashboardPage;
 

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class testOOPs {
     @Test(enabled = false)
     public void testString(){
-        workingWithString splitString = new workingWithString();
+        WorkingWithString splitString = new WorkingWithString();
         splitString.stringWithRegex("aaa123bbbe34238273*#&$*");
     }
     @Test(enabled = false)
@@ -145,11 +145,11 @@ public class testOOPs {
         System.out.println("Special char after splitting " + special);
     }
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void mergeArrays(){
         int arr1[] = {12, 11, 02, 07};
         int arr2[] = {28, 1, 22, 17};
-        workingWithString withString = new workingWithString();
+        WorkingWithString withString = new WorkingWithString();
         withString.mergeArrays(arr1, arr2);
     }
 
@@ -175,6 +175,15 @@ public class testOOPs {
         System.out.println("Peek element with Binary is: " + peek.findPeek(arr, len));
     }
 
+    @Test
+    public void staticVariable(){
+        StaticVariable s1 = new StaticVariable(110, "Kalyan");
+        StaticVariable s2 = new StaticVariable(112, "Dunion");
+        StaticVariable s3 = new StaticVariable(123, "Mice");
 
+        s1.displayStudent();
+        s2.displayStudent();
+        s3.displayStudent();
+    }
 
 }

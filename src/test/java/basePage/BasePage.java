@@ -16,7 +16,7 @@ import utilities.ReadPropertiesFileTest;
 
 import static utilities.ReadPropertiesFileTest.readPropertiesFile;
 
-public class basePage {
+public class BasePage {
     public static WebDriver driver;
     private ReadPropertiesFileTest readfile;
     private String chromePath = "runner/chromedriver";
@@ -59,14 +59,14 @@ public class basePage {
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
         return driver;
     }
-    @BeforeSuite
+//    @BeforeSuite
     public void intBrowser() throws IOException {
         readfile = new ReadPropertiesFileTest();
         Properties pro = readPropertiesFile("dataSource/properties.properties");
         driver = initializeBrowser();
         driver.get(pro.getProperty("url"));
     }
-    @AfterSuite
+//    @AfterSuite
     public void afterSuite(){
         if (null != driver){
             driver.close();

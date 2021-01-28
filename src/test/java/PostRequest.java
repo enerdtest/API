@@ -1,6 +1,3 @@
-import com.github.dzieciou.testing.curl.CurlLogger;
-import com.github.dzieciou.testing.curl.CurlRestAssuredConfigFactory;
-import com.github.dzieciou.testing.curl.Options;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.config.LogConfig;
 import com.jayway.restassured.config.RestAssuredConfig;
@@ -11,14 +8,13 @@ import com.jayway.restassured.specification.RequestSpecification;
 import net.minidev.json.JSONObject;
 import org.junit.After;
 import org.junit.Before;
-import org.testng.annotations.Test;
 
 import java.time.Instant;
 
 import static com.jayway.restassured.RestAssured.*;
 import static java.lang.System.out;
 
-public class postRequest {
+public class PostRequest {
 
 
     @Before
@@ -106,7 +102,7 @@ public class postRequest {
         String token = "sLGZzb3r4FJHU327YKQ1";
         String corp_uuid = "gsc53f9713sf4e3791725a9tf786c8c9";
         long timestamp = Instant.now().getEpochSecond();
-        String signature = md5Hash.getMd5(app_uuid + token + timestamp);
+        String signature = Md5Hash.getMd5(app_uuid + token + timestamp);
         String convert = String.valueOf(timestamp);
 
         RequestSpecification request = RestAssured.given().contentType(ContentType.JSON);

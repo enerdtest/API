@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.util.regex.Pattern;
 
-public class sikuliDemo {
+public class SikuliDemo {
     @Test
     public void sikuliTest(){
 //        System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");

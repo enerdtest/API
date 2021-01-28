@@ -1,5 +1,5 @@
-public class returnThis {
-    returnThis getA(){
+public class ReturnThis {
+    ReturnThis getA(){
         return this;
     }
     void msg(){

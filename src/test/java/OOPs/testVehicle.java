@@ -10,11 +10,11 @@ import static OOPs.nonStatic.show;
 public class testVehicle {
     private carClass carClass;
     private EvenOrOdd evenOrOdd;
-    private vehicle vehicle;
+    private Vehicle vehicle;
     @Test
     public void oop(){
         carClass = new carClass();
-        vehicle = new vehicle();
+        vehicle = new Vehicle();
         vehicle.setBrandName("Toyota");
         vehicle.setName("Camry 2.0");
         vehicle.setNumOfSeats(4);
@@ -57,15 +57,15 @@ public class testVehicle {
         constructor2.show();
     }
 
-    @Test
-    public void staticVariable(){
-        staticVariable staticVariable = new staticVariable();
-        staticVariable staticVariable1 =  new staticVariable();
-        staticVariable staticVariable2 = new staticVariable();
-        staticVariable.staticVariable();
-        staticVariable1.staticVariable();
-        staticVariable2.staticVariable();
-    }
+//    @Test
+//    public void staticVariable(){
+//        StaticVariable staticVariable = new StaticVariable();
+//        StaticVariable staticVariable1 =  new StaticVariable();
+//        StaticVariable staticVariable2 = new StaticVariable();
+//        staticVariable.StaticVariable();
+//        staticVariable1.StaticVariable();
+//        staticVariable2.StaticVariable();
+//    }
 
     @Test
     public void getStaticMethod(){
