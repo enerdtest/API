@@ -145,14 +145,6 @@ public class testOOPs {
         System.out.println("Special char after splitting " + special);
     }
 
-    @Test(enabled = true)
-    public void mergeArrays(){
-        int arr1[] = {12, 11, 02, 07};
-        int arr2[] = {28, 1, 22, 17};
-        workingWithString withString = new workingWithString();
-        withString.mergeArrays(arr1, arr2);
-    }
-
     @Test(enabled = false)
     public void testAbstract(){
         int arr1[] = {12, 11, 02, 07};

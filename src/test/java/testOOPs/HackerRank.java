@@ -4,6 +4,8 @@ package testOOPs;
 import OOPs.Algo.*;
 import OOPs.CallByValue;
 import OOPs.InnerClass;
+import OOPs.workingWithString;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utility.PrintArray;
 
@@ -63,6 +65,14 @@ public class HackerRank {
         print.testSprintArray(arr);
     }
 
+    @Test(groups = "HackerRank", description = "Merge 2 arrays ")
+    public void mergeArray(){
+        int arr[] = {12, 29, 30, 23, 16};
+        int arr1[] = {12,21,3,4,1,5};
+        System.out.println("Merge 2 arrays ");
+        new Merge2Arrays(arr, arr1);
+    }
+
     @Test(enabled = false)
     public void fibonacciWithRecursion(){
         int n =8;
@@ -73,7 +83,7 @@ public class HackerRank {
             System.out.println("There is no fibonacci for "+ n);
     }
 
-    @Test(enabled = true)
+    @Test(groups = "HackerRank", dependsOnMethods = "recursionWithFactorial")
     public void fibonacciWithDynamic(){
         Fibonacci fb = new Fibonacci();
         int n = 8;
@@ -83,7 +93,7 @@ public class HackerRank {
             System.out.println("There is no fibonacci for "+ n);
     }
 
-    @Test
+    @Test(groups = "HackerRank")
     public void recursionWithFactorial(){
         Fibonacci fb = new Fibonacci();
         int n = 5;
@@ -96,7 +106,7 @@ public class HackerRank {
         int givenYear = 600;
         System.out.println(odd.OddDays(givenYear));
     }
-    @Test
+    @Test(groups = "HackerRank")
     public void division(){
         int num1 = -12;
         int num2 = 3;
@@ -110,7 +120,7 @@ public class HackerRank {
 
     }
 
-    @Test
+    @Test(groups = "HackerRank", dependsOnMethods = "division")
     public void callByValue(){
         CallByValue call = new CallByValue();
         System.out.println("Before changing value " + call.data);
@@ -118,11 +128,19 @@ public class HackerRank {
         System.out.println("After changing value : " +call.data);
     }
 
-    @Test
+    @Test(groups = "HackerRank", dependsOnMethods = "callByValue" )
     public void innerClass(){
         InnerClass inner = new InnerClass();
         InnerClass.defaultPrint innerClass = new InnerClass.defaultPrint();
         System.out.println(innerClass.passWord("aaaaaaa"));
         inner.innerClassMethod();
+    }
+
+    @Test(groups = "HackerRank")
+    @Parameters({"a", "b"})
+    public void paramTestNG(int c, int d){
+        System.out.println("print something! ");
+        int e = c + d;
+        System.out.println("value of a + b is " + e);
     }
 }
