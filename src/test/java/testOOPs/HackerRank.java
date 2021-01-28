@@ -1,12 +1,13 @@
 package testOOPs;
 
 
-import OOPs.Algo.FindPairEqualSum;
-import OOPs.Algo.PairMinMax;
+import OOPs.Algo.*;
+import OOPs.CallByValue;
+import OOPs.InnerClass;
+import OOPs.WorkingWithString;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utility.PrintArray;
-
-import java.util.Scanner;
 
 public class HackerRank {
 //    public static void main(String args[]) {
@@ -37,6 +38,7 @@ public class HackerRank {
 //        }
 //        scanner.close();
 //    }
+
     @Test(enabled = false)
     public void minMax(){
         int arr[] = {1000, 11, 445, 1, 330, 3000};
@@ -60,5 +62,84 @@ public class HackerRank {
         else
             System.out.println("Array does not have " + " elements with given sum");
         print.testSprintArray(arr);
+    }
+
+    @Test(groups = "HackerRank", description = "Merge 2 arrays ")
+    public void mergeArray(){
+        int arr[] = {12, 29, 30, 23, 16};
+        int arr1[] = {12,21,3,4,1,5};
+        System.out.println("Merge 2 arrays ");
+        new Merge2Arrays(arr, arr1);
+    }
+
+    @Test(enabled = false)
+    public void fibonacciWithRecursion(){
+        int n =8;
+        Fibonacci fib = new Fibonacci();
+        if (n > 0)
+            System.out.println("Fibonacci of "+ n + " is " + fib.recursion(n));
+        else
+            System.out.println("There is no fibonacci for "+ n);
+    }
+
+    @Test(groups = "HackerRank", dependsOnMethods = "recursionWithFactorial")
+    public void fibonacciWithDynamic(){
+        Fibonacci fb = new Fibonacci();
+        int n = 8;
+        if (n > 0)
+            System.out.println("Fibonacci of "+ n + " is " + fb.fibonacci(n));
+        else
+            System.out.println("There is no fibonacci for "+ n);
+    }
+
+    @Test(groups = "HackerRank")
+    public void recursionWithFactorial(){
+        Fibonacci fb = new Fibonacci();
+        int n = 5;
+        System.out.println("Factorial of 5 is " + fb.factorial(n));
+    }
+
+    @Test(enabled = false)
+    public void getOddDays(){
+        OddDays odd = new OddDays();
+        int givenYear = 600;
+        System.out.println(odd.OddDays(givenYear));
+    }
+    @Test(groups = "HackerRank")
+    public void division(){
+        int num1 = -12;
+        int num2 = 3;
+        Division division = new Division();
+        System.out.println(division.divisionWithoutOperation(num1, num2));
+        System.out.println(division.divisionSubtracting(num1, num2));
+        System.out.println(num1 * Math.pow(num2, -1));
+        System.out.println(Math.pow(num2, -1));
+        System.out.println(Math.pow(num1, -1));
+        System.out.println(Math.pow(num2, -2));
+
+    }
+
+    @Test(groups = "HackerRank", dependsOnMethods = "division")
+    public void callByValue(){
+        CallByValue call = new CallByValue();
+        System.out.println("Before changing value " + call.data);
+        call.change(200);
+        System.out.println("After changing value : " +call.data);
+    }
+
+    @Test(groups = "HackerRank", dependsOnMethods = "callByValue" )
+    public void innerClass(){
+        InnerClass inner = new InnerClass();
+        InnerClass.defaultPrint innerClass = new InnerClass.defaultPrint();
+        System.out.println(innerClass.passWord("aaaaaaa"));
+        inner.innerClassMethod();
+    }
+
+    @Test(groups = "HackerRank")
+    @Parameters({"a", "b"})
+    public void paramTestNG(int c, int d){
+        System.out.println("print something! ");
+        int e = c + d;
+        System.out.println("value of a + b is " + e);
     }
 }

@@ -1,6 +1,6 @@
 package OOPs;
 
-public class innerClass {
+public class InnerClass {
     interface myInterface{
         void run();
         interface innerInterface {
@@ -16,9 +16,10 @@ public class innerClass {
               System.out.println("Inner Method within a class! ");
           }
       }
+        System.out.println("Inner class Method  ");
     }
 
-    public class defaultPrint {
+    public static class defaultPrint {
         public String passWord(String password){
             return password;
         }

@@ -13,7 +13,7 @@ public class object {
 
    // @Test(priority = 0)
     public void eventOrOdd(){
-        oddMethod oddMethod = new oddMethod();
+        OddMethod oddMethod = new OddMethod();
         int num;
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter username");

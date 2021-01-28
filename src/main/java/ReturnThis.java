@@ -1,4 +1,5 @@
 public class ReturnThis {
+
     ReturnThis getA(){
         return this;
     }
