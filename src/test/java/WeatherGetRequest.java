@@ -15,7 +15,7 @@ import java.util.Date;
 import static com.jayway.restassured.RestAssured.*;
 import static java.lang.System.*;
 
-public class WheatherGetRequest {
+public class WeatherGetRequest {
     Md5Hash md5Hash = new Md5Hash();
 
     @Before
@@ -184,7 +184,7 @@ public class WheatherGetRequest {
         request.log().all();
 
         int statusCode = response.getStatusCode();
-        System.out.println("The status code recieved: " + statusCode);
+        System.out.println("The status code received: " + statusCode);
 
         System.out.println("Response body: " + response.body().asString());
 

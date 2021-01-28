@@ -1,7 +1,6 @@
 package OOPs.Algo;
 
 public class Fibonacci {
-
     //Fibonacci with recursion
     public int recursion(int n){
         if(n <= 1)
@@ -21,6 +20,14 @@ public class Fibonacci {
                 System.out.println("fibo of i " + i + " is " + c);
             }
             return b;
+    }
+
+    //Factorial with Recursion
+    public int factorial(int n){
+        if (n == 1)
+            return 1;
+        else
+        return (n * factorial(n - 1));
     }
 }
 

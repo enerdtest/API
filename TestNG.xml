@@ -18,9 +18,9 @@
 <!--            <class name="testPages.testLogin"></class>-->
 <!--                <class name="postRequest"></class>-->
             <!--            <class name="testPages.testDashboard"></class>-->
-            <class name="testOOPs.testOOPs"></class>
+<!--            <class name="testOOPs.testOOPs"></class>-->
 <!--            <class name="testOOPs.testInnerClass"></class>-->
-<!--            <class name="testOOPs.HackerRank"></class>-->
+            <class name="testOOPs.HackerRank"></class>
 <!--            <class name="testOOPs.hashSet"></class>-->
         </classes>
     </test>

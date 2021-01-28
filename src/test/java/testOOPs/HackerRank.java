@@ -1,10 +1,9 @@
 package testOOPs;
 
 
-import OOPs.Algo.Fibonacci;
-import OOPs.Algo.FindPairEqualSum;
-import OOPs.Algo.OddDays;
-import OOPs.Algo.PairMinMax;
+import OOPs.Algo.*;
+import OOPs.CallByValue;
+import OOPs.InnerClass;
 import org.testng.annotations.Test;
 import utility.PrintArray;
 
@@ -74,7 +73,7 @@ public class HackerRank {
             System.out.println("There is no fibonacci for "+ n);
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void fibonacciWithDynamic(){
         Fibonacci fb = new Fibonacci();
         int n = 8;
@@ -85,9 +84,45 @@ public class HackerRank {
     }
 
     @Test
+    public void recursionWithFactorial(){
+        Fibonacci fb = new Fibonacci();
+        int n = 5;
+        System.out.println("Factorial of 5 is " + fb.factorial(n));
+    }
+
+    @Test(enabled = false)
     public void getOddDays(){
         OddDays odd = new OddDays();
         int givenYear = 600;
         System.out.println(odd.OddDays(givenYear));
+    }
+    @Test
+    public void division(){
+        int num1 = -12;
+        int num2 = 3;
+        Division division = new Division();
+        System.out.println(division.divisionWithoutOperation(num1, num2));
+        System.out.println(division.divisionSubtracting(num1, num2));
+        System.out.println(num1 * Math.pow(num2, -1));
+        System.out.println(Math.pow(num2, -1));
+        System.out.println(Math.pow(num1, -1));
+        System.out.println(Math.pow(num2, -2));
+
+    }
+
+    @Test
+    public void callByValue(){
+        CallByValue call = new CallByValue();
+        System.out.println("Before changing value " + call.data);
+        call.change(200);
+        System.out.println("After changing value : " +call.data);
+    }
+
+    @Test
+    public void innerClass(){
+        InnerClass inner = new InnerClass();
+        InnerClass.defaultPrint innerClass = new InnerClass.defaultPrint();
+        System.out.println(innerClass.passWord("aaaaaaa"));
+        inner.innerClassMethod();
     }
 }
