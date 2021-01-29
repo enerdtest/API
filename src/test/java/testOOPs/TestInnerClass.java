@@ -2,7 +2,7 @@ package testOOPs;
 
 import org.testng.annotations.Test;
 
-public class testInnerClass {
+public class TestInnerClass {
    @Test(enabled = false)
     public void appendString(){
        StringBuffer alpha = new StringBuffer(),

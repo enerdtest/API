@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class getProperties {
+public class GetProperties {
 
     @Test (enabled = false, priority = 0)
     public void getPropertiesSystem() throws IOException {

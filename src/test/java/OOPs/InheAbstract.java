@@ -2,7 +2,7 @@ package OOPs;
 
 import OOPs.Abstract.AbstractClass;
 
-public class inheAbstract extends AbstractClass {
+public class InheAbstract extends AbstractClass {
     @Override
     public void mergeArrays(int[] array1, int[] array2) {
         int aLen = array1.length;

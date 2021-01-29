@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 import java.util.Scanner;
 
 
-public class object {
+public class Object {
     //@Test(priority = 0)
     public void student(){
         Student student1 = new Student();

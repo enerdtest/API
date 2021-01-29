@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 
 import java.util.Scanner;
 
-import static OOPs.nonStatic.show;
+import static OOPs.NonStatic.show;
 import static OOPs.StaticMethod.change;
 
-public class testVehicle {
+public class TestVehicle {
     private CarClass carClass;
     private EvenOrOdd evenOrOdd;
     private Vehicle vehicle;

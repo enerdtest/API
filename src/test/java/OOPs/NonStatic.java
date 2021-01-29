@@ -1,6 +1,6 @@
 package OOPs;
 
-public class nonStatic {
+public class NonStatic {
     static void show(){
         System.out.println("non Static class! ");
     }

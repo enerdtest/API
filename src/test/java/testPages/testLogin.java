@@ -4,8 +4,8 @@ import basePage.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.homePage;
-import pages.loginPage;
+import pages.HomePage;
+import pages.LoginPage;
 import utilities.ReadPropertiesFileTest;
 
 import java.io.IOException;
@@ -14,8 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 public class testLogin extends BasePage {
     WebDriver driver;
-    private loginPage loginPage;
-    private homePage homePage;
+    private LoginPage loginPage;
+    private HomePage homePage;
     private ReadPropertiesFileTest readfile;
 
 //
@@ -24,7 +24,7 @@ public class testLogin extends BasePage {
 //    @Story("Test Property Login!")
     @Test(priority = 0, description = "Get landing page title!")
     public void getLandingTitle(){
-        loginPage = new loginPage(driver);
+        loginPage = new LoginPage(driver);
         System.out.println(loginPage.getTitle());
         Assert.assertEquals(loginPage.getTitle(), "Livin PMH Resident Portal");
     }
@@ -33,25 +33,25 @@ public class testLogin extends BasePage {
     public void loginProperty() throws IOException {
         readfile = new ReadPropertiesFileTest();
         Properties pro = ReadPropertiesFileTest.readPropertiesFile("dataSource/loginInfo.properties");
-        loginPage = new loginPage(driver);
+        loginPage = new LoginPage(driver);
         loginPage.loginProperty(pro.getProperty("userName"), pro.getProperty("passWord"));
     }
 
     @Test(priority = 2 , description = "Get Home page portal title after login successfully!")
     public void getHomeTitle(){
-        homePage = new homePage(driver);
+        homePage = new HomePage(driver);
         System.out.println(homePage.getHomePageTitle());
         Assert.assertEquals(homePage.getHomePageTitle(), "Resident Portal");
     }
     @Test(priority = 2, description = "Get userName after login successfully!")
     public void getUserName(){
-        homePage = new homePage(driver);
+        homePage = new HomePage(driver);
         System.out.println(homePage.getUserName());
         Assert.assertEquals(homePage.getUserName(), "sangkt");
     }
     @Test(priority = 2, description = "Get welcome message after login successfully!")
     public void getWelcomeMessage(){
-        homePage = new homePage(driver);
+        homePage = new HomePage(driver);
         driver.manage().timeouts().implicitlyWait(20000, TimeUnit.MILLISECONDS);
         String welcomeMessage = homePage.getWelcomeMessage();
         System.out.println(welcomeMessage);

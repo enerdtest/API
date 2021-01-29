@@ -7,7 +7,7 @@ import utility.PrintArray;
 
 import java.util.Scanner;
 
-public class testOOPs {
+public class TestOOPs {
     @Test(enabled = false)
     public void testString(){
         WorkingWithString splitString = new WorkingWithString();
@@ -157,7 +157,7 @@ public class testOOPs {
     public void testAbstract(){
         int arr1[] = {12, 11, 02, 07};
         int arr2[] = {12, 11, 02, 07};
-        inheAbstract inhe = new inheAbstract();
+        InheAbstract inhe = new InheAbstract();
 
 //        inhe.mergeArrays(arr1, arr2);
         inhe.printAbstract();

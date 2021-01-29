@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class homePage{
+public class HomePage {
     WebDriver driver;
 
     @FindBy(xpath = ".//a[@class='logo']")
@@ -15,7 +15,7 @@ public class homePage{
     @FindBy(tagName = "h1")
     private WebElement welcomeMessage;
 
-    public homePage(WebDriver driver){
+    public HomePage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

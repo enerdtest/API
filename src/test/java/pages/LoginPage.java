@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class loginPage {
+public class LoginPage {
         WebDriver driver;
         @FindBy(xpath = ".//h3[@class='title']")
         private WebElement pageTitle;
@@ -17,7 +17,7 @@ public class loginPage {
         @FindBy(xpath = ".//button[contains(text(),'Log In')]")
         private WebElement btnLogin;
 
-        public loginPage(WebDriver driver){
+        public LoginPage(WebDriver driver){
             this.driver = driver;
             PageFactory.initElements(driver, this);
         }

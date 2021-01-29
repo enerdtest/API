@@ -5,14 +5,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class dashboardPage {
+public class DashboardPage {
     WebDriver driver;
     @FindBy(xpath = ".//span[contains(text(), 'Inspection Management')]")
     WebElement inspectionManagementMenu;
     @FindBy(xpath = ".//span[contains(text(), 'Dashboard')]")
     WebElement dashboardMenu;
 
-    public dashboardPage(WebDriver driver){
+    public DashboardPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

@@ -5,13 +5,11 @@ import OOPs.Collections.BookHashSet;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
 
-public class hashSet {
+public class HashSet {
     @Test
     public void getHashset(){
-        HashSet<BookHashSet> hashSet = new HashSet<BookHashSet>();
+        java.util.HashSet<BookHashSet> hashSet = new java.util.HashSet<BookHashSet>();
 
        BookHashSet b1=new BookHashSet(101,"Let us C","Yashwant Kanetkar","BPB",8);
         BookHashSet b2=new BookHashSet(102,"Data Communications & Networking","Forouzan","Mc Graw Hill",4);
