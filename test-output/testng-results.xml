@@ -2,42 +2,38 @@
 <testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-28T16:17:29 ICT" name="Suite1 and TestNG report" finished-at="2021-01-28T16:17:29 ICT" duration-ms="51">
+  <suite started-at="2021-01-29T13:47:05 ICT" name="Suite1 and TestNG report" finished-at="2021-01-29T13:47:05 ICT" duration-ms="59">
     <groups>
       <group name="HackerRank">
-        <method signature="HackerRank.division()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="division" class="testOOPs.HackerRank"/>
-        <method signature="HackerRank.callByValue()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="callByValue" class="testOOPs.HackerRank"/>
-        <method signature="HackerRank.innerClass()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="innerClass" class="testOOPs.HackerRank"/>
-        <method signature="HackerRank.mergeArray()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="mergeArray" class="testOOPs.HackerRank"/>
-        <method signature="HackerRank.mergeArrays()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="mergeArrays" class="testOOPs.HackerRank"/>
-        <method signature="HackerRank.recursionWithFactorial()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="recursionWithFactorial" class="testOOPs.HackerRank"/>
-        <method signature="HackerRank.fibonacciWithDynamic()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="fibonacciWithDynamic" class="testOOPs.HackerRank"/>
-        <method signature="HackerRank.paramTestNG(int, int)[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" name="paramTestNG" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.division()[pri:0, instance:testOOPs.HackerRank@351d0846]" name="division" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.callByValue()[pri:0, instance:testOOPs.HackerRank@351d0846]" name="callByValue" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.getDayByGivenDate()[pri:0, instance:testOOPs.HackerRank@351d0846]" name="getDayByGivenDate" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.innerClass()[pri:0, instance:testOOPs.HackerRank@351d0846]" name="innerClass" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.mergeArray()[pri:0, instance:testOOPs.HackerRank@351d0846]" name="mergeArray" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.recursionWithFactorial()[pri:0, instance:testOOPs.HackerRank@351d0846]" name="recursionWithFactorial" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.fibonacciWithDynamic()[pri:0, instance:testOOPs.HackerRank@351d0846]" name="fibonacciWithDynamic" class="testOOPs.HackerRank"/>
+        <method signature="HackerRank.paramTestNG(int, int)[pri:0, instance:testOOPs.HackerRank@351d0846]" name="paramTestNG" class="testOOPs.HackerRank"/>
       </group> <!-- HackerRank -->
     </groups>
-    <test started-at="2021-01-28T16:17:29 ICT" name="TestNG and Listener Report" finished-at="2021-01-28T16:17:29 ICT" duration-ms="51">
+    <test started-at="2021-01-29T13:47:05 ICT" name="TestNG and Listener Report" finished-at="2021-01-29T13:47:05 ICT" duration-ms="59">
       <class name="testOOPs.HackerRank">
-        <test-method signature="mergeArray()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="mergeArray" description="Merge 2 arrays " finished-at="2021-01-28T16:17:29 ICT" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mergeArray -->
-        <test-method signature="division()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="division" finished-at="2021-01-28T16:17:29 ICT" duration-ms="8" status="PASS">
+        <test-method signature="division()[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="division" finished-at="2021-01-29T13:47:05 ICT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- division -->
-        <test-method signature="mergeArrays()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="mergeArrays" finished-at="2021-01-28T16:17:29 ICT" duration-ms="7" status="PASS">
+        <test-method signature="mergeArray()[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="mergeArray" description="Merge 2 arrays " finished-at="2021-01-29T13:47:05 ICT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mergeArrays -->
-        <test-method signature="callByValue()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="callByValue" finished-at="2021-01-28T16:17:29 ICT" depends-on-methods="testOOPs.HackerRank.division" duration-ms="1" status="PASS">
+        </test-method> <!-- mergeArray -->
+        <test-method signature="getDayByGivenDate()[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="getDayByGivenDate" finished-at="2021-01-29T13:47:05 ICT" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- callByValue -->
-        <test-method signature="recursionWithFactorial()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="recursionWithFactorial" finished-at="2021-01-28T16:17:29 ICT" duration-ms="1" status="PASS">
+        </test-method> <!-- getDayByGivenDate -->
+        <test-method signature="recursionWithFactorial()[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="recursionWithFactorial" finished-at="2021-01-29T13:47:05 ICT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recursionWithFactorial -->
-        <test-method signature="paramTestNG(int, int)[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="paramTestNG" finished-at="2021-01-28T16:17:29 ICT" duration-ms="0" status="PASS">
+        <test-method signature="paramTestNG(int, int)[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="paramTestNG" finished-at="2021-01-29T13:47:05 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,11 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paramTestNG -->
-        <test-method signature="fibonacciWithDynamic()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="fibonacciWithDynamic" finished-at="2021-01-28T16:17:29 ICT" depends-on-methods="testOOPs.HackerRank.recursionWithFactorial" duration-ms="1" status="PASS">
+        <test-method signature="callByValue()[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="callByValue" finished-at="2021-01-29T13:47:05 ICT" depends-on-methods="testOOPs.HackerRank.division" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callByValue -->
+        <test-method signature="fibonacciWithDynamic()[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="fibonacciWithDynamic" finished-at="2021-01-29T13:47:05 ICT" depends-on-methods="testOOPs.HackerRank.recursionWithFactorial" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fibonacciWithDynamic -->
-        <test-method signature="innerClass()[pri:0, instance:testOOPs.HackerRank@35fc6dc4]" started-at="2021-01-28T16:17:29 ICT" name="innerClass" finished-at="2021-01-28T16:17:29 ICT" depends-on-methods="testOOPs.HackerRank.callByValue" duration-ms="1" status="PASS">
+        <test-method signature="innerClass()[pri:0, instance:testOOPs.HackerRank@351d0846]" started-at="2021-01-29T13:47:05 ICT" name="innerClass" finished-at="2021-01-29T13:47:05 ICT" depends-on-methods="testOOPs.HackerRank.callByValue" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- innerClass -->

@@ -4,7 +4,6 @@ package testOOPs;
 import OOPs.Algo.*;
 import OOPs.CallByValue;
 import OOPs.InnerClass;
-import OOPs.WorkingWithString;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utility.PrintArray;
@@ -141,5 +140,15 @@ public class HackerRank {
         System.out.println("print something! ");
         int e = c + d;
         System.out.println("value of a + b is " + e);
+    }
+
+    @Test(groups = "HackerRank")
+    public void getDayByGivenDate(){
+        GetDayByGivenDate getDate = new GetDayByGivenDate();
+        String date = "2020-10-19";
+        getDate.GetDayByGivenDate(date);
+        getDate.findDate(date);
+        getDate.getDay(12, 9, 2020);
+        getDate.findDay(10,12,2020);
     }
 }

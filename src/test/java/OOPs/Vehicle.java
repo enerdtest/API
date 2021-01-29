@@ -4,13 +4,13 @@ import java.util.Date;
 
 
 class Vehicle {
-    private String brandName;
-    private int speed;
-    private int numOfSeats;
-    private String modelName;
-    private float price;
-    private String yearOfManufacture;
-    private int numWheel;
+    String brandName;
+    int speed;
+    int numOfSeats;
+    String modelName;
+    float price;
+    String yearOfManufacture;
+    int numWheel;
 
     void setBrandName(String brandName){
         this.brandName = brandName;
