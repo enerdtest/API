@@ -1,18 +1,18 @@
 package OOPs;
 
-public class constructor {
+public class Constructor {
     public String name;
     public int id;
-    constructor(String name, int id){
+    Constructor(String name, int id){
         this.name = name;
         this.id = id;
     }
 
-    constructor(constructor c){
+    Constructor(Constructor c){
         this.id = c.id;
         this.name = c.name;
     }
-    constructor(){
+    Constructor(){
 
     }
 

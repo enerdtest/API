@@ -1,7 +1,7 @@
 package OOPs;
 
 
-public class carClass extends Vehicle {
+public class CarClass extends Vehicle {
     private int numOfDoors;
     void setNumOfDoors(int doors){
         this.numOfDoors = doors;

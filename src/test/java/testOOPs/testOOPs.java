@@ -104,8 +104,8 @@ public class testOOPs {
     @Test(enabled = false)
     public void testOddEven(){
         int num = 2;
-        harkerRank harkerRank =  new harkerRank();
-        harkerRank.oddEven(num);
+        OddEven OddEven =  new OddEven();
+        OddEven.oddEven(num);
         int result;
      for (int i =1; i <= 10; i++){
          result = num * i;

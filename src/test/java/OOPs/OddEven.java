@@ -1,6 +1,6 @@
 package OOPs;
 
-public class harkerRank {
+public class OddEven {
     public void oddEven(int num){
         if(num%2 != 0){
             System.out.println("Weird!");

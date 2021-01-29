@@ -1,6 +1,6 @@
 package OOPs;
 
-public class staticMethod {
+public class StaticMethod {
     String rollNo;
     String studentName;
     String className;
@@ -10,7 +10,7 @@ public class staticMethod {
         college = "BBDIT";
     }
 
-    staticMethod(String rollNo, String studentName, String className){
+    StaticMethod(String rollNo, String studentName, String className){
         this.rollNo = rollNo;
         this.studentName = studentName;
         this.className = className;

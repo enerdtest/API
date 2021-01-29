@@ -1,19 +1,16 @@
 package OOPs;
-
-import org.joda.time.DateTime;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class Vehicle {
-    String brandName;
-    int speed;
-    int numOfSeats;
-    String modelName;
-    float price;
-    String yearOfManufacture;
-    int numWheel;
+class Vehicle {
+    private String brandName;
+    private int speed;
+    private int numOfSeats;
+    private String modelName;
+    private float price;
+    private String yearOfManufacture;
+    private int numWheel;
 
     void setBrandName(String brandName){
         this.brandName = brandName;
