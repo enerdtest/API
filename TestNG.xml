@@ -10,7 +10,7 @@
     <test name="TestNG and Listener Report" >
         <groups>
             <run>
-                <include name="HackerRank"/>
+                <include name="permutation"/>
             </run>
         </groups>
         <classes>

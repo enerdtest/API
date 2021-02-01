@@ -10,13 +10,13 @@
   <test thread-count="3" parallel="methods" name="TestNG and Listener Report(failed)">
     <groups>
       <run>
-        <include name="HackerRank"/>
+        <include name="permutation"/>
       </run>
     </groups>
     <classes>
       <class name="testOOPs.HackerRank">
         <methods>
-          <include name="getDayByGivenDate"/>
+          <include name="permutation"/>
         </methods>
       </class> <!-- testOOPs.HackerRank -->
     </classes>

@@ -1,6 +1,7 @@
 package testOOPs;
 
 
+import OOPs.Abstract.CheckAllCharsSame;
 import OOPs.Algo.*;
 import OOPs.CallByValue;
 import OOPs.InnerClass;
@@ -115,7 +116,6 @@ public class HackerRank {
         System.out.println(Math.pow(num2, -1));
         System.out.println(Math.pow(num1, -1));
         System.out.println(Math.pow(num2, -2));
-
     }
 
     @Test(groups = "HackerRank", dependsOnMethods = "division")
@@ -150,5 +150,20 @@ public class HackerRank {
         getDate.findDate(date);
         getDate.getDay(12, 9, 2020);
         getDate.findDay(10,12,2020);
+    }
+    @Test(groups = "permutation")
+    public void permutation(){
+        Permutations per = new Permutations();
+        CheckAllChars allChars = new CheckAllChars();
+
+        String arr = "a";
+        int len = arr.length();
+
+        if (allChars.allCharsSame(arr) != true) {
+            System.out.println("All permutations of the String are ");
+            per.generatePermutation(arr, 0, len - 1);
+        } else {
+            System.out.println(" Do not need to be swapped!");
+        }
     }
 }
