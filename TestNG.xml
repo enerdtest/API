@@ -10,11 +10,11 @@
     <test name="TestNG and Listener Report" >
         <groups>
             <run>
-                <include name="HackerRank"/>
+                <include name="oops"/>
             </run>
         </groups>
         <classes>
-            <class name="testOOPs.HackerRank"></class>
+            <class name="testOOPs.TestOOPs"></class>
         </classes>
     </test>
 </suite>

@@ -1,6 +1,10 @@
-package OOPs;
+package testOOPs;
 
 import OOPs.Algo.EvenOrOdd;
+import OOPs.CarClass;
+import OOPs.Constructor;
+import OOPs.StaticMethod;
+import OOPs.Vehicle;
 import org.testng.annotations.Test;
 
 import java.util.Scanner;

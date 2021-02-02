@@ -1,5 +1,9 @@
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/basePage/BasePage.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/CallByValue.java
+<<<<<<< HEAD
+=======
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Interface/AllCharsSame.java
+>>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/testOOPs/HashSet.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/Fibonacci.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/PostRequest.java
@@ -18,14 +22,18 @@
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/testPages/testDashboard.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/StaticMethod.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/FindPairEqualSum.java
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Interface/Drawable.java
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/ModifyInterfaceDefaultMethod.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/testOOPs/HackerRank.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/GetProperties.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/testPages/testLogin.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/Aggregation.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Abstract/AbstractClass.java
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Abstract/PermutationAbstract.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/StaticVariable.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Vehicle.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/IceToken.java
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/Permutations.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/PeekElement.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Constructor.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/WeatherGetRequest.java
@@ -33,6 +41,10 @@
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/OddDays.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/BinarySearch.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/WorkingWithString.java
+<<<<<<< HEAD
+=======
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Abstract/CheckAllCharsSame.java
+>>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/Merge2Arrays.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Collections/BookHashSet.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/testOOPs/TestOOPs.java
@@ -47,5 +59,11 @@
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/CarClass.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/GetDayByGivenDate.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/SikuliDemo.java
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Interface/Permutation.java
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Algo/CheckAllChars.java
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/Interface/Merge2Arrays.java
+<<<<<<< HEAD
+=======
+/Users/sangkieu/IdeaProjects/DBConnection/src/test/java/testOOPs/TestVehicle.java
+>>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 /Users/sangkieu/IdeaProjects/DBConnection/src/test/java/OOPs/InheAbstract.java

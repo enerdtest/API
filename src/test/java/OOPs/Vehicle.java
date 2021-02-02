@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-class Vehicle {
+public class Vehicle {
     String brandName;
     int speed;
     int numOfSeats;
@@ -12,29 +12,29 @@ class Vehicle {
     String yearOfManufacture;
     int numWheel;
 
-    void setBrandName(String brandName){
+    public void setBrandName(String brandName){
         this.brandName = brandName;
     }
-    void setSpeed(int speed){
+    public void setSpeed(int speed){
         this.speed = speed;
     }
-    void setNumOfSeats(int numOfSeats){
+    public void setNumOfSeats(int numOfSeats){
         this.numOfSeats = numOfSeats;
     }
-    void setName(String name){
+    public void setName(String name){
         this.modelName = name;
     }
     public void setPrice(float price){
         this.price = price;
     }
-    String setYearOfManufacture(){
+    public String setYearOfManufacture(){
         this.yearOfManufacture = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS").format(new Date());
         return yearOfManufacture;
     }
-    void setNumWheel(int wheel){
+    public void setNumWheel(int wheel){
         this.numWheel = wheel;
     }
-    void vehicleInfo(){
+    public void vehicleInfo(){
         System.out.println("Car Model Name: " + modelName);
         System.out.println("Brand Name: " + brandName);
         System.out.println("Price in $: " + price);
