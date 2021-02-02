@@ -1,8 +1,5 @@
 OOPs/Algo/Fibonacci.class
-<<<<<<< HEAD
-=======
 OOPs/Interface/AllCharsSame.class
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 OOPs/StaticMethod.class
 OOPs/InheAbstract.class
 testOOPs/HashSet.class
@@ -12,15 +9,10 @@ OOPs/Algo/FindPairEqualSum.class
 testOOPs/HackerRank.class
 WeatherGetRequest.class
 SikuliDemo.class
-<<<<<<< HEAD
-OOPs/CallByValue.class
-OOPs/Algo/BinarySearch.class
-=======
 OOPs/Interface/Permutation.class
 OOPs/CallByValue.class
 OOPs/Algo/BinarySearch.class
 OOPs/Algo/CheckAllChars.class
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 OOPs/Collections/BookHashSet.class
 basePage/BasePage.class
 OOPs/Algo/PeekElement.class
@@ -30,10 +22,7 @@ OOPs/Abstract/AbstractClass.class
 OOPs/OddEven.class
 OOPs/Algo/OddDays.class
 OOPs/Algo/Merge2Arrays.class
-<<<<<<< HEAD
-=======
 OOPs/Abstract/PermutationAbstract.class
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 OOPs/Algo/BubbleSort.class
 OOPs/Algo/MergeSort.class
 pages/LoginPage.class
@@ -46,31 +35,20 @@ OOPs/InnerClass$1innerClass1.class
 OOPs/Interface/Division2Int.class
 OOPs/InnerClass$myInterface$innerInterface.class
 OOPs/Algo/LinearSearch.class
-<<<<<<< HEAD
-OOPs/InnerClass$myInterface.class
-OOPs/TestVehicle.class
-=======
 OOPs/Abstract/CheckAllCharsSame.class
 OOPs/InnerClass$myInterface.class
 testOOPs/TestVehicle.class
 OOPs/Algo/Permutations.class
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 OOPs/Algo/EvenOrOdd.class
 OOPs/Collections/BookArray.class
 OOPs/Algo/PairMinMax.class
 OOPs/WorkingWithString.class
-<<<<<<< HEAD
-=======
 OOPs/Interface/Drawable.class
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 testOOPs/TestOOPs.class
 OOPs/Algo/FindLargest.class
 OOPs/Interface/Merge2Arrays.class
 Object$A4.class
-<<<<<<< HEAD
-=======
 OOPs/ModifyInterfaceDefaultMethod.class
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
 OOPs/Abstract/Division.class
 OOPs/Constructor.class
 OOPs/Vehicle.class

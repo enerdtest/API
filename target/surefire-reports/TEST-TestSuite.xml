@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<<<<<<< HEAD
-<testsuite tests="8" failures="0" name="TestSuite" time="0.012" errors="0" skipped="0">
-=======
-<testsuite tests="1" failures="0" name="TestSuite" time="0.008" errors="0" skipped="0">
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
+<testsuite tests="1" failures="0" name="TestSuite" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+7"/>
@@ -43,16 +39,9 @@
     <property name="java.specification.version" value="14"/>
     <property name="user.name" value="sangkieu"/>
     <property name="java.class.path" value="/Users/sangkieu/Documents/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
-<<<<<<< HEAD
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-=======
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="error"/>
-    <property name="java.vm.specification.version" value="14"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -q test"/>
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -68,16 +57,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-<<<<<<< HEAD
-  <testcase classname="testOOPs.HackerRank" name="division" time="0.005"/>
-  <testcase classname="testOOPs.HackerRank" name="mergeArray" time="0.005"/>
-  <testcase classname="testOOPs.HackerRank" name="recursionWithFactorial" time="0"/>
-  <testcase classname="testOOPs.HackerRank" name="paramTestNG" time="0.001"/>
-  <testcase classname="testOOPs.HackerRank" name="callByValue" time="0.001"/>
-  <testcase classname="testOOPs.HackerRank" name="fibonacciWithDynamic" time="0"/>
-  <testcase classname="testOOPs.HackerRank" name="getDayByGivenDate" time="0"/>
-  <testcase classname="testOOPs.HackerRank" name="innerClass" time="0"/>
-=======
-  <testcase classname="testOOPs.TestOOPs" name="staticVariable" time="0.008"/>
->>>>>>> fcb45815d0bb779d82bea81bda566c6fdcc05f3a
+  <testcase classname="testOOPs.TestOOPs" name="staticVariable" time="0.007"/>
 </testsuite>
