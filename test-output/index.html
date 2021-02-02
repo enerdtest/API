@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Suite1_and_TestNG_report">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite1_and_TestNG_report" title="testOOPs.HackerRank" class="method navigator-link" hash-for-method="permutation">permutation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite1_and_TestNG_report" title="testOOPs.TestOOPs" class="method navigator-link" hash-for-method="staticVariable">staticVariable</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1_and_TestNG_report -->
@@ -122,14 +122,14 @@
           <div class="suite-Suite1_and_TestNG_report-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testOOPs.HackerRank</span>
+              <span class="class-name">testOOPs.TestOOPs</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="permutation">
-                  </a> <!-- permutation -->
-                  <span class="method-name">permutation</span>
+                  <a name="staticVariable">
+                  </a> <!-- staticVariable -->
+                  <span class="method-name">staticVariable</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -153,11 +153,11 @@
   &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;TestNG and Listener Report&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;permutation&quot;/&gt;
+        &lt;include name=&quot;oops&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testOOPs.HackerRank&quot;/&gt;
+      &lt;class name=&quot;testOOPs.TestOOPs&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TestNG and Listener Report --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 and TestNG report --&gt;
@@ -182,10 +182,10 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">permutation</span>
+              <span class="test-group-name">oops</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">permutation</span>
+                <span class="method-in-group-name">staticVariable</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -207,8 +207,8 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'permutation')
-data.setCell(0, 2, 'testOOPs.HackerRank')
+data.setCell(0, 1, 'staticVariable')
+data.setCell(0, 2, 'testOOPs.TestOOPs')
 data.setCell(0, 3, 6);
 window.suiteTableData['Suite1_and_TestNG_report']= { tableData: data, tableDiv: 'times-div-Suite1_and_TestNG_report'}
 return data;
@@ -229,35 +229,39 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1_and_TestNG_report" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">12 ignored methods</span>
+            <span class="header-content">14 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testOOPs.HackerRank</span>
+              <span class="ignored-class-name">testOOPs.TestOOPs</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">getOddDays</span>
+                <span class="ignored-method-name">testString</span>
                 <br/>
-                <span class="ignored-method-name">division</span>
+                <span class="ignored-method-name">mergeArrays</span>
                 <br/>
-                <span class="ignored-method-name">callByValue</span>
+                <span class="ignored-method-name">testLargestArr</span>
                 <br/>
-                <span class="ignored-method-name">innerClass</span>
+                <span class="ignored-method-name">bubbleSort</span>
                 <br/>
-                <span class="ignored-method-name">findGivenSum</span>
+                <span class="ignored-method-name">findPeekElement</span>
                 <br/>
-                <span class="ignored-method-name">minMax</span>
+                <span class="ignored-method-name">testAbstract</span>
                 <br/>
-                <span class="ignored-method-name">getDayByGivenDate</span>
+                <span class="ignored-method-name">testScanner</span>
                 <br/>
-                <span class="ignored-method-name">fibonacciWithRecursion</span>
+                <span class="ignored-method-name">concatString</span>
                 <br/>
-                <span class="ignored-method-name">mergeArray</span>
+                <span class="ignored-method-name">appendString</span>
                 <br/>
-                <span class="ignored-method-name">recursionWithFactorial</span>
+                <span class="ignored-method-name">testMergeSort</span>
                 <br/>
-                <span class="ignored-method-name">paramTestNG</span>
+                <span class="ignored-method-name">testOddEven</span>
                 <br/>
-                <span class="ignored-method-name">fibonacciWithDynamic</span>
+                <span class="ignored-method-name">testLinearSearch</span>
+                <br/>
+                <span class="ignored-method-name">binarySearch</span>
+                <br/>
+                <span class="ignored-method-name">testQuickSort</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -269,9 +273,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testOOPs.HackerRank</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testOOPs.TestOOPs</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">permutation</span>
+                <span class="method-name">staticVariable</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

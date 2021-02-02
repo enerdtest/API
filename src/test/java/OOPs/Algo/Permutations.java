@@ -1,6 +1,7 @@
 package OOPs.Algo;
 
 import OOPs.Abstract.PermutationAbstract;
+import OOPs.Interface.AllCharsSame;
 
 public class Permutations extends PermutationAbstract {
     @Override

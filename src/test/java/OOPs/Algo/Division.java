@@ -1,7 +1,5 @@
 package OOPs.Algo;
 
-import org.bytedeco.javacpp.opencv_core;
-
 public class Division extends OOPs.Abstract.Division {
     @Override
     public int divisionWithoutOperation(int num1, int num2) {

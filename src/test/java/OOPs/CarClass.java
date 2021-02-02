@@ -3,11 +3,11 @@ package OOPs;
 
 public class CarClass extends Vehicle {
     private int numOfDoors;
-    void setNumOfDoors(int doors){
+    public void setNumOfDoors(int doors){
         this.numOfDoors = doors;
     }
 
-    void getVehicleInfo(){
+    public void getVehicleInfo(){
         System.out.println("Car Model Name: " + modelName);
         System.out.println("Brand Name: " + brandName);
         System.out.println("Price in $: " + price);

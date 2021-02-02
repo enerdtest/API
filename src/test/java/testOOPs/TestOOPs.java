@@ -175,8 +175,10 @@ public class TestOOPs {
         System.out.println("Peek element with Binary is: " + peek.findPeek(arr, len));
     }
 
-    @Test
+    @Test(groups = "oops")
     public void staticVariable(){
+        StaticVariable.changeCollege();
+        StaticVariable.changeCount();
         StaticVariable s1 = new StaticVariable(110, "Kalyan");
         StaticVariable s2 = new StaticVariable(112, "Dunion");
         StaticVariable s3 = new StaticVariable(123, "Mice");
