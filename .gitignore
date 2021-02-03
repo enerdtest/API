@@ -1,5 +1,6 @@
 # Default ignored files
 README.md
-/Users/sangkieu/IdeaProjects/DBConnection/target/
-/Users/sangkieu/IdeaProjects/DBConnection/test-output/
+target/
+test-output/
 .idea/workspace.xml
+.gitignore
