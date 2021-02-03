@@ -1,4 +1,5 @@
 # Default ignored files
-DBConnection/README.md
-DBConnection/target/
-DBConnection/test-output/
+README.md
+/Users/sangkieu/IdeaProjects/DBConnection/target/
+/Users/sangkieu/IdeaProjects/DBConnection/test-output/
+.idea/workspace.xml

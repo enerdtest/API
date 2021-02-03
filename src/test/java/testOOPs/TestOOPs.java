@@ -188,4 +188,19 @@ public class TestOOPs {
         s3.displayStudent();
     }
 
+    @Test(groups = "oops")
+    public void allCharsSame(){
+        String str = "KKKkkk";
+        CheckAllChars check = new CheckAllChars();
+        check.allCharWithSet(str);
+        System.out.println("something!");
+        check.defaultMessage();
+
+        if (check.allCharWithSet(str) != true){
+            System.out.println("all chars are not the same!" + str);
+        } else {
+            System.out.println("all chars are the same!" + str);
+        }
+    }
+
 }
