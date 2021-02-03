@@ -1,4 +1,4 @@
 # Default ignored files
-README.md
-target/
-test-output/
+DBConnection/README.md
+DBConnection/target/
+DBConnection/test-output/
